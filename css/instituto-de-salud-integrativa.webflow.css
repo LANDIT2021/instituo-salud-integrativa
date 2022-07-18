@@ -1305,6 +1305,119 @@ li {
   text-decoration: none;
 }
 
+.s_sucess {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#f5f5f5));
+  background-image: linear-gradient(180deg, #f5f5f5, #f5f5f5);
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 74px 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #5a43ff;
+  box-shadow: 1px 1px 14px -6px #000;
+}
+
+.image-5 {
+  width: 70%;
+  max-width: none;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.heading {
+  color: #fff;
+}
+
+.boton {
+  margin-top: 10px;
+  padding: 14px 20px;
+  background-color: #f80101;
+  font-weight: 700;
+}
+
+.boton.magin {
+  margin-top: 5%;
+  border-radius: 20px;
+  background-color: #00b6ff;
+  font-family: Nunito, sans-serif;
+}
+
+.boton.success {
+  margin-top: 5%;
+  margin-right: 0px;
+  border-radius: 30px;
+  background-color: #00b6ff;
+  font-family: Nunito, sans-serif;
+  font-size: 22px;
+  line-height: 130%;
+}
+
+.heading-6 {
+  font-family: Asap, sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.heading-6.center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 70%;
+  line-height: 130%;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 20px;
@@ -1868,6 +1981,29 @@ li {
   .right-arrow-2 {
     display: none;
   }
+
+  .div-block-3 {
+    margin: 25px;
+    padding: 0px 37px 50px;
+  }
+
+  .image-5 {
+    width: 80%;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .heading-6 {
+    font-family: Asap, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .heading-6.center {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2251,6 +2387,38 @@ li {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .div-block-3 {
+    margin: 31px;
+    padding: 0px 25px 32px;
+  }
+
+  .image-5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .boton.magin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .boton.success {
+    font-size: 16px;
+  }
+
+  .heading-6 {
+    font-size: 14px;
+  }
+
+  .heading-6.center {
+    max-width: 90%;
+    line-height: 130%;
   }
 }
 
@@ -2698,6 +2866,36 @@ li {
 
   .checkbox-label {
     font-size: 12px;
+  }
+
+  .image-5 {
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -o-object-fit: fill;
+    object-fit: fill;
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+
+  .heading {
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+
+  .boton.magin {
+    margin-right: 0px;
+  }
+
+  .boton.success {
+    margin-top: 10%;
+    font-size: 14px;
+  }
+
+  .heading-6.center {
+    font-size: 14px;
   }
 }
 
