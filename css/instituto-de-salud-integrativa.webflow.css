@@ -601,8 +601,8 @@ li {
   min-height: 530px;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 0.75fr 1.25fr;
+  grid-template-columns: 1fr 0.75fr 1.25fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -614,6 +614,7 @@ li {
 }
 
 .div_img_grid._1 {
+  display: none;
   background-image: url('../images/solving-problem-2021-09-24-03-37-57-utc-1-min.jpg');
   background-position: 60% 50%;
   background-size: cover;
@@ -626,7 +627,13 @@ li {
 }
 
 .div_img_grid._3 {
+  display: none;
   background-image: url('../images/chiropractor-stretching-a-young-man-arm-in-medical-2021-09-03-09-37-50-utc-min.jpg');
+  background-position: 30% 50%;
+}
+
+.div_img_grid._4 {
+  background-image: url('../images/family-offer-wide-banner-with-happy-mother-kissin-2022-10-07-02-23-46-utc.jpg');
   background-position: 30% 50%;
 }
 
@@ -932,16 +939,17 @@ li {
 }
 
 .img_grid.nivel2 {
-  width: 30%;
+  width: 170px;
 }
 
 .img_grid.nivel3 {
-  width: 30%;
+  width: 180px;
   margin-top: 5%;
 }
 
 .img_grid._1 {
-  width: 25%;
+  width: 180px;
+  height: 180px;
 }
 
 .img_logo.form {
@@ -1000,7 +1008,7 @@ li {
 
 .p_hover {
   display: block;
-  max-width: 85%;
+  max-width: 80%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1014,7 +1022,11 @@ li {
 }
 
 .p_hover.nivel1 {
-  max-width: 70%;
+  max-width: 50%;
+}
+
+.p_hover._2 {
+  max-width: 50%;
 }
 
 .sec_servicios_responsive {
@@ -1948,6 +1960,20 @@ li {
   }
 
   .div_resp2._2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5a43ff), to(#5a43ff));
+    background-image: linear-gradient(180deg, #5a43ff, #5a43ff);
+  }
+
+  .div_resp2._2.oculto {
+    display: none;
+  }
+
+  .div_resp2.var {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#5a43ff), to(#5a43ff));
     background-image: linear-gradient(180deg, #5a43ff, #5a43ff);
   }
@@ -2938,6 +2964,14 @@ li {
     flex-direction: column-reverse;
   }
 
+  .div_resp2.var {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .image-2 {
     display: none;
   }
@@ -3348,7 +3382,7 @@ li {
   grid-row-end: span 1;
 }
 
-#w-node-c10b77da-7df4-c8c9-1e99-3d511ee1a355-cfb201a9 {
+#w-node-_17a10252-d0de-88fa-324b-547db191a15a-cfb201a9 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -3359,7 +3393,18 @@ li {
   grid-row-end: span 1;
 }
 
-#w-node-_17a10252-d0de-88fa-324b-547db191a15a-cfb201a9 {
+#w-node-_8838a8ab-2b5b-785f-4cdf-f67faa857206-cfb201a9 {
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-c10b77da-7df4-c8c9-1e99-3d511ee1a355-cfb201a9 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -3528,6 +3573,17 @@ li {
   }
 
   #w-node-_29476135-57ec-34dd-cf79-f30d1d0243a2-cfb201a9 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-e280bb0f-9c36-2180-fa1b-761935194bd0-cfb201a9 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
